@@ -1,7 +1,5 @@
 So we will be biginning with justa a rudimentary way of thinking where your db will be in your computers filesystem and that will be the
 version one of the project
-		date started: 23/08/2021
-
 
 So the version one will be authenticating from within the text that we will create having the credentials, that is for the first version
 this greatly makes use of the fstream class
