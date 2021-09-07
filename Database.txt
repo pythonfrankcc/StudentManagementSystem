@@ -1,10 +1,10 @@
  
 
-eeei/00941/2015	Francis        	00	00	Macharia
-eeei/00942/2015	John           	00	00	Mumo
-eeei/00943/2015	Melvin         	00	00	Murithi
-eeei/00947/2015	Ade            	00	00	Ombati
-eeei/00991/2015	Brian          	00	00	Momanyi
-eeei/00967/2019	Karan          	00	00	Challa
-eeei/8975/2019	Mike           	00	00	Munuve
-eeei/0829731/2020	Kiansasdf      20	00	00	asdjklhfaskhd
+eee	F        	00	00	M
+eee	J           	00	00	M
+eee         	00	00	M
+eee          	00	00	O
+eee        	00	00	M
+eee         	00	00	C
+eee	M         	00	00	
+eee/0829731/2020	Kiansasdf      20	00	00	asdjklhfaskhd
