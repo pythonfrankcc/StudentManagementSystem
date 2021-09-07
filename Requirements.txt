@@ -1,0 +1,30 @@
+So we will be biginning with justa a rudimentary way of thinking where your db will be in your computers filesystem and that will be the
+version one of the project
+		date started: 23/08/2021
+
+
+So the version one will be authenticating from within the text that we will create having the credentials, that is for the first version
+this greatly makes use of the fstream class
+
+the use of the .c_str() is used to convert the string type to a c string with a char* \
+the use of seekp(), tellp(), tellg(), seekg() is used when you want to jump to specific parts of the file to either read on or write to
+You can find the link to a brief explanation on the same here https://www.youtube.com/watch?v=CaU7x2Bkj4M
+
+
+In the code below I get a Run-Time Check Failure#2 - Stack around the variable 'data' was corrupted
+Here are the possible reasons for this:
+a)In case you are accessing let us say an index in a container that is not supposed to be accessed
+b)It is also caused when you write too much data to a particular memory address. Typical causes are writing more to a string buffer than
+you have room for and here is an example
+void fun()
+{
+char buf[10];
+strcpy(buf,"This is definitely more than 10 characters long , I am sure that it will cause a run time check");
+}
+
+c)Another reason would be when you initialize the a structure or an array with the wrong size when you are using memset
+
+d) Another reason would be when you move an array wrongly
+
+
+There should be exception handling that involves try catch and throw statementys for synchronous errors in the code
